@@ -4,7 +4,7 @@ Options -Indexes
 
 # Prod
 RewriteEngine On
-RewriteCond %{REQUEST_URI} !^/mobile_monitoring
+RewriteCond %{REQUEST_URI} !^/mobilemonitoring
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /index.php?$1 [L]
@@ -12,10 +12,10 @@ RewriteRule ^(.*)$ /index.php?$1 [L]
 
 # Local/Demo
 RewriteEngine On
-RewriteCond %{REQUEST_URI} ^/mobile_monitoring
+RewriteCond %{REQUEST_URI} ^/mobilemonitoring
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /mobile_monitoring/index.php?$1 [L]
+RewriteRule ^(.*)$ /mobilemonitoring/index.php?$1 [L]
 
 
 <ifModule mod_gzip.c>
