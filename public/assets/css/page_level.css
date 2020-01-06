@@ -1,0 +1,366 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 14, 2018, 2:26:10 PM
+    Author     : admin
+*/
+.profile-sidebar {
+    margin-right: 20px;
+    background:#eef1f5;
+}
+.profile-sidebar-portlet {
+    padding: 30px 0 0!important;
+}
+.profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50%!important;
+    -moz-border-radius: 50%!important;
+    border-radius: 50%!important;
+}
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+}
+.profile-usertitle-name {
+    color: #5a7391;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.profile-usertitle-job {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 13px;
+    font-weight: 800;
+    margin-bottom: 7px;
+}
+.profile-userbuttons {
+    text-align: center;
+    margin-top: 10px;
+}
+.btn.green:not(.btn-outline) {
+    color: #FFF;
+    background-color: #32c5d2;
+    border-color: #32c5d2;
+}
+.btn.red:not(.btn-outline) {
+    color: #fff;
+    background-color: #e7505a;
+    border-color: #e7505a;
+}
+.profile-usermenu {
+  margin-top: 30px;
+  padding-bottom: 20px; }
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7; }
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none; }
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 16px;
+  font-weight: 400; }
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 16px; }
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1; }
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+}
+.profile-content {
+    overflow: hidden;
+}
+/*.portlet.light {
+    padding: 12px 20px 15px;    float: left;
+    width: 100%;
+    background-color: #fff;
+}*/
+.portlet.light>.portlet-title {
+    padding: 0;
+    min-height: 48px;
+}
+.portlet>.portlet-title {
+    border-bottom: 1px solid #578ebe30;
+    margin-bottom: 10px;
+}
+.activity-box-bg{
+  background:#fff !important;
+}
+.page-content-wrapper .page-content {
+    margin-left: 235px;
+    margin-top: 0;
+    min-height: 600px;
+    padding: 0!important;
+}
+    
+/*-----------------*/
+/***** Goliath *****/
+/*-----------------*/
+
+figure.effect-goliath {
+	background: #df4e4e;
+}
+
+figure.effect-goliath img,
+figure.effect-goliath h2 {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+figure.effect-goliath img {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-goliath h2,
+figure.effect-goliath p {
+	position: absolute;
+	bottom: 11px;
+	left: 4%;
+	padding: 0;
+}
+
+figure.effect-goliath p {
+	text-transform: none;
+	font-size: 90%;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,50px,0);
+	transform: translate3d(0,50px,0);
+	margin-top: 35px;
+}
+
+figure.effect-goliath:hover img {
+	-webkit-transform: translate3d(0,-80px,0);
+	transform: translate3d(0,-80px,0);
+}
+
+figure.effect-goliath:hover h2 {
+	-webkit-transform: translate3d(0,-100px,0);
+	transform: translate3d(0,-100px,0);
+}
+
+figure.effect-goliath:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.grid {
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+	padding: 0;
+	/* max-width: 1000px; */
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    min-width: 219px;
+    height: 200px;
+    background: #333;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    display: block;
+}
+.grid figure img {
+    display: inline-table;
+    height: auto;
+    min-width: 100%;
+    opacity: 0.8;
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.grid figure figcaption {
+	padding: 0em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+figure.effect-goliath p a {
+    color: #fff;
+    background-color: #e7505a;
+    border-color: #e7505a;
+    padding: 6px 12px;
+    line-height: 1.44;
+    position: relative;
+    -webkit-transition: left 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: left 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+    margin-right: 2px;
+    text-decoration: none;
+}
+.portlet.light>.portlet-title>.actions.usename {
+      width: auto;
+    background: #00aff1;
+    border-radius: 0px!important;
+    color: #ffffff;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 11px;
+}
+.font-green-haze {
+    color: #11a4d6!important;
+}
+.page-header.navbar {
+    background-color: #00aff1;
+}   
+.page-sidebar .page-sidebar-menu > li.active.open > a, .page-sidebar .page-sidebar-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a:focus {
+    background: #05b0f1 none repeat scroll 0 0;
+}.page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i {
+    color: #ffffff;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown .dropdown-toggle:hover, .page-header.navbar .top-menu .navbar-nav>li.dropdown.open .dropdown-toggle {
+    background-color: #00aff1 !important;
+}
+.fa-angle-down:before {
+    content: "\f107";
+    color: white;
+}
+
+.page-content-wrapper .page-content {
+    margin-left: 235px;
+    margin-top: 0;
+    min-height: 600px;    background: #f2f3f8;
+    padding: 25px 20px 10px!important;
+}
+
+.portlet.light.portlet-fit>.portlet-title {
+    padding: 15px 20px 10px!important;
+}
+.portlet.light.bordered>.portlet-title {
+    border-bottom: 1px solid #eef1f5!important;
+}
+.portlet.light.bordered {
+    border: 1px solid #e7ecf1!important;
+}
+.page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i {
+    color: #ffffff!important;
+    font-size: 14px!important;
+    font-weight: 600!important;
+}
+
+a.btn-group-sm>.btn, .btn-sm{
+    padding: 1px 8px !important;
+}
+
+
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+[data-tooltip]:before {
+ position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-bottom: 5px;
+    margin-left: -30px;
+    padding: 7px;
+  width: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+
+
+
+/*tooltip over*/
+
+
+.has-error .control-label{
+    color: #364e69 !important;
+}
+
+.page-sidebar .page-sidebar-menu .sub-menu{
+    display: block !important;
+}

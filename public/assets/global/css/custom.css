@@ -1,0 +1,223 @@
+.modal-open .colorpicker, .modal-open .datepicker, .modal-open .daterangepicker {
+    z-index: 1005599999 !important;
+}
+
+.editable-click, a.editable-click, a.editable-click:hover {
+    border-bottom: none;
+}
+
+.editable-buttons.cusCompanyTags{
+    position: absolute;
+    top: 0;
+    right: -98px;
+}
+
+hr {
+    margin: 10px 0;
+}
+.portlet.light .portlet-body {
+    padding-top: 5px;
+}
+
+.cusDate{
+    width: 150px !important;
+}
+/*.cuswidth{
+    width: 600px !important;
+    width: 570px !important;
+}*/
+
+
+
+
+.projectOverview .editable-buttons{
+    position: absolute;
+    width: 90px;
+}
+.prospect-heading-row{
+    margin-bottom: 10px;
+}
+.prospect-heading-row .small-col{
+    width: 20%;
+    word-wrap: break-word;
+}
+
+.expertsBio .bootstrap-tagsinput{
+    /*width: 600px;*/
+}
+/*.expertsBio .cuswidth{*/
+    /*width: 560px !important;*/
+/*}*/
+
+.expertsBio .editable-buttons{
+    position: absolute;
+    width: 90px;
+}
+.userBio .editable-buttons{
+    position: absolute;
+    width: 90px;
+}
+
+.CompalianceOfficer .editable-buttons{
+    position: absolute;
+    width: 90px;
+}
+.custom-tagsinput .bootstrap-tagsinput{
+    width: 100%;
+}
+
+
+
+.projectOverview{
+    width: 100%;
+}
+.projectOverview .editable-container{
+    width: 100%;
+}
+.projectOverview .editable-container .form-group{
+    width: 100%;
+}
+.projectOverview .editable-container .form-group .editable-input{
+    width: 100%;
+}
+.projectOverview .editable-container .form-group .editable-input .cuswidth{
+    width: 100%;
+}
+
+.projectOverview .bootstrap-tagsinput{
+    width: 100%;
+}
+.projectOverview .date{
+    width: 100% ;
+}
+.projectOverview .cusDate{
+    width: 92% !important;
+}
+
+
+.userBio{
+    width: 100%;
+}
+.userBio .editable-container{
+    width: 100%;
+}
+.userBio .editable-container .form-group{
+    width: 100%;
+}
+.userBio .editable-container .form-group .editable-input{
+    width: 100%;
+}
+.userBio .editable-container .form-group .editable-input .cuswidth{
+    width: 100%;
+}
+.userBio .bootstrap-tagsinput{
+    width: 100%;
+}
+.userBio .date{
+    width: 100% ;
+}
+.userBio .cusDate{
+    width: 92% !important;
+}
+
+
+.expertsBio{
+    width: 100%;
+}
+.expertsBio .editable-container{
+    width: 100%;
+}
+.expertsBio .editable-container .form-group{
+    width: 100%;
+}
+.expertsBio .editable-container .form-group .editable-input{
+    width: 100%;
+}
+.expertsBio .editable-container .form-group .editable-input .cuswidth{
+    width: 100%;
+}
+.expertsBio .bootstrap-tagsinput{
+    width: 100%;
+}
+.expertsBio .date{
+    width: 100% ;
+}
+.expertsBio .cusDate{
+    width: 92% !important;
+}
+
+
+.CompalianceOfficer{
+    width: 100%;
+}
+.CompalianceOfficer .editable-container{
+    width: 100%;
+}
+.CompalianceOfficer .editable-container .form-group{
+    width: 100%;
+}
+.CompalianceOfficer .editable-container .form-group .editable-input{
+    width: 100%;
+}
+.CompalianceOfficer .editable-container .form-group .editable-input .cuswidth{
+    width: 100%;
+}
+.CompalianceOfficer .bootstrap-tagsinput{
+    width: 100%;
+}
+
+.head-company-name{
+    word-wrap: break-word;
+}
+
+.readless{
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.readmore{
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+label.expertsComplianceDate {
+    color: #337ab7;
+}
+
+input#compliance_date {
+    padding-left: 10px;
+}
+
+.dateToshow.expertsBio .editable-buttons{
+    top: 0;
+    right: -97px;
+}
+.dateToshow.expertsBio .editable-buttons .editable-cancel{
+    margin-left: 3px;
+}
+.input-group-btn{
+    vertical-align: top;
+}
+
+.prospact_data .panel-head{
+    margin-bottom: 10px !important;
+}
+.prospact_data .createBtn {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.Angletoshow .tt-suggestion {
+    color: #000;
+}
+
+.boxless .portlet .panel-head a{
+    color: #fff;
+}
+a.angleOfIntrest{
+    color: white;
+}
+.small-col {
+    width: 14%;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/xampp/htdocs/mobile_monitaring/application/views/admin/user/logs/key_logger_list.php</file>
+            <file>file:/D:/xampp/htdocs/mobile_monitaring/application/views/admin/user/logs/notification_list.php</file>
+            <file>file:/D:/xampp/htdocs/mobile_monitaring/application/models/Datatable_model.php</file>
+            <file>file:/D:/xampp/htdocs/mobile_monitaring/application/models/admin/User_model.php</file>
+            <file>file:/D:/xampp/htdocs/mobile_monitaring/application/helpers/menu_helper.php</file>
+            <file>file:/D:/xampp/htdocs/mobile_monitaring/application/views/admin/user/overview.php</file>
+            <file>file:/D:/xampp/htdocs/mobile_monitaring/public/assets/javascripts/common_function.js</file>
+            <file>file:/D:/xampp/htdocs/mobile_monitaring/application/models/Api_model.php</file>
+            <file>file:/D:/xampp/htdocs/mobile_monitaring/application/views/admin/user/application.php</file>
+            <file>file:/D:/xampp/htdocs/mobile_monitaring/application/controllers/Api.php</file>
+            <file>file:/D:/xampp/htdocs/mobile_monitaring/public/assets/javascripts/admin/User.js</file>
+            <file>file:/D:/xampp/htdocs/mobile_monitaring/application/controllers/admin/User.php</file>
+            <file>file:/D:/xampp/htdocs/mobile_monitaring/application/views/admin/user/logs/browser_list.php</file>
+        </group>
+    </open-files>
+</project-private>
