@@ -31,9 +31,9 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO'])) {
 }
 
 if (APP_ENVIRONMENT == 'prod') {
-    $config['base_url'] = $schema. '://' . $_SERVER['HTTP_HOST'] . '/mobile_monitoring/';
+    $config['base_url'] = $schema. '://' . $_SERVER['HTTP_HOST'] . '/mobilemonitoring/';
 } else if (APP_ENVIRONMENT == 'local') {
-    $config['base_url'] = $schema . '://' . $_SERVER['HTTP_HOST'] . '/mobile_monitaring/';
+    $config['base_url'] = $schema . '://' . $_SERVER['HTTP_HOST'] . '/mobilemonitoring/';
 }
 $config['admin_url'] = $config['base_url'] . 'admin/';
 $config['affiliate_url'] = $config['base_url'] . 'affiliate/';
